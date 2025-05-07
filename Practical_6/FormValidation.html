@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form Validation</title>
+    <script>
+        function validateForm() {
+            const form = document.forms["myForm"];
+            const name = form["name"].value.trim();
+            const email = form["email"].value.trim();
+            const age = form["age"].value;
+            const password = form["password"].value;
+            const confirmPassword = form["confirm_password"].value;
+            const phone = form["phone"].value.trim();
+            const gender = form["gender"].value;
+            const country = form["country"].value;
+
+            // Name validation
+            if (name === "") {
+                alert("Name must be filled out");
+                return false;
+            }
+
+            // Email validation
+            if (email === "") {
+                alert("Email must be filled out");
+                return false;
+            }
+
+            // Age validation
+            if (age === "" || isNaN(age) || age <= 0) {
+                alert("Please enter a valid age");
+                return false;
+            }
+
+            // Password validation
+            if (password.length < 6) {
+                alert("Password must be at least 6 characters long");
+                return false;
+            }
+
+            // Password match validation
+            if (password !== confirmPassword) {
+                alert("Passwords do not match");
+                return false;
+            }
+
+            // Phone number validation (10 digits)
+            const phonePattern = /^[0-9]{10}$/;
+            if (!phonePattern.test(phone)) {
+                alert("Please enter a valid 10-digit phone number");
+                return false;
+            }
+
+            // Gender validation
+            if (!gender) {
+                alert("Please select your gender");
+                return false;
+            }
+
+            // Country selection validation
+            if (country === "") {
+                alert("Please select a country");
+                return false;
+            }
+
+            alert("Form submitted successfully!");
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Form Validation</h1>
+    <form name="myForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female<br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select Country--</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

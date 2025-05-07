@@ -1,0 +1,11 @@
+Hello! Harshvardhan Patil
+This is a new line of text.
+
+This is a new line of text.
+We are testing how the text appears in the file.
+
+This file is just a demo text file for testing purposes.
+The purpose of this file is to show content in a simple text format.
+
+Feel free to add more lines to this file for testing.
+This is a new line of text added to the file.

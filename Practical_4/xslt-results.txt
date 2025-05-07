@@ -1,0 +1,29 @@
+        Name: Harshvardhan Patil
+        Position: Full Stack Developer
+        Department: IT
+        Hired in: 2021
+        Salary: 85000
+
+        Name: Yash Ainpaure
+        Position: Frontend Developer
+        Department: UI/UX
+        Hired in: 2022
+        Salary: 72000
+
+        Name: Pawan Malgavi
+        Position: Backend Developer
+        Department: IT
+        Hired in: 2021
+        Salary: 78000
+
+        Name: Pruthviraj Sawant
+        Position: System Analyst
+        Department: Operations
+        Hired in: 2020
+        Salary: 70000
+
+        Name: Aryan Patil
+        Position: QA Engineer
+        Department: Testing
+        Hired in: 2022
+        Salary: 65000

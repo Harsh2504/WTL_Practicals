@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        label { font-weight: bold; }
+        input, textarea, select { width: 100%; padding: 8px; margin: 6px 0; }
+        button { padding: 10px 15px; background: #28a745; color: white; border: none; }
+        table { width: 100%; margin-top: 30px; border-collapse: collapse; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    </style>
+</head>
+<body>
+
+<h2>Job Application Form</h2>
+
+<form action="job_application.php" method="POST">
+    <label>Full Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Email Address:</label>
+    <input type="email" name="email" required>
+
+    <label>Phone Number:</label>
+    <input type="text" name="phone" required>
+
+    <label>Position Applying For:</label>
+    <select name="position" required>
+        <option value="">Select a position</option>
+        <option value="Frontend Developer">Frontend Developer</option>
+        <option value="Backend Developer">Backend Developer</option>
+        <option value="UI/UX Designer">UI/UX Designer</option>
+    </select>
+
+    <label>Cover Letter:</label>
+    <textarea name="cover_letter" rows="5"></textarea>
+
+    <button type="submit" name="submit">Submit Application</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="mangas.xsl"?>
+<library>
+    <book>
+        <title>One Piece</title>
+        <author>Eiichiro Oda</author>
+        <price>9.99</price>
+    </book>
+    <book>
+        <title>Naruto</title>
+        <author>Masashi Kishimoto</author>
+        <price>8.99</price>
+    </book>
+    <book>
+        <title>Attack on Titan</title>
+        <author>Hajime Isayama</author>
+        <price>10.99</price>
+    </book>
+    <book>
+        <title>Demon Slayer: Kimetsu no Yaiba</title>
+        <author>Koyoharu Gotouge</author>
+        <price>11.99</price>
+    </book>
+    <book>
+        <title>My Hero Academia</title>
+        <author>Kohei Horikoshi</author>
+        <price>9.49</price>
+    </book>
+    <book>
+        <title>Death Note</title>
+        <author>Tsugumi Ohba</author>
+        <price>7.99</price>
+    </book>
+</library>

@@ -1,0 +1,37 @@
+<company>
+   <staff>
+      <full_name>Harshvardhan Patil</full_name>
+      <job_title>Full Stack Developer</job_title>
+      <division>IT</division>
+      <joining_year>2021</joining_year>
+      <income>85000</income>
+   </staff>
+   <staff>
+      <full_name>Yash Ainpaure</full_name>
+      <job_title>Frontend Developer</job_title>
+      <division>UI/UX</division>
+      <joining_year>2022</joining_year>
+      <income>72000</income>
+   </staff>
+   <staff>
+      <full_name>Pawan Malgavi</full_name>
+      <job_title>Backend Developer</job_title>
+      <division>IT</division>
+      <joining_year>2021</joining_year>
+      <income>78000</income>
+   </staff>
+   <staff>
+      <full_name>Pruthviraj Sawant</full_name>
+      <job_title>System Analyst</job_title>
+      <division>Operations</division>
+      <joining_year>2020</joining_year>
+      <income>70000</income>
+   </staff>
+   <staff>
+      <full_name>Aryan Patil</full_name>
+      <job_title>QA Engineer</job_title>
+      <division>Testing</division>
+      <joining_year>2022</joining_year>
+      <income>65000</income>
+   </staff>
+</company>

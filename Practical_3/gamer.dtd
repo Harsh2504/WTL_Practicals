@@ -1,0 +1,8 @@
+<!ELEMENT gamers (gamer+)>
+<!ELEMENT gamer (name, role, team, game, join_year, earnings)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT role (#PCDATA)>
+<!ELEMENT team (#PCDATA)>
+<!ELEMENT game (#PCDATA)>
+<!ELEMENT join_year (#PCDATA)>
+<!ELEMENT earnings (#PCDATA)>

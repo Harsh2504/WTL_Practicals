@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gamer.xsl"?>
+<!DOCTYPE gamers SYSTEM "gamers.dtd">
+<gamers>
+    <gamer>
+        <name>Harshvardhan Patil</name>
+        <role>Pro Gamer</role>
+        <team>Team Hydra</team>
+        <game>Valorant</game>
+        <join_year>2020</join_year>
+        <earnings>120000</earnings>
+    </gamer>
+    <gamer>
+        <name>Yash Ainpaure</name>
+        <role>Team Captain</role>
+        <team>Dark Phantoms</team>
+        <game>CS:GO</game>
+        <join_year>2018</join_year>
+        <earnings>150000</earnings>
+    </gamer>
+    <gamer>
+        <name>Pawan Malgavi</name>
+        <role>Sniper</role>
+        <team>Shadow Reapers</team>
+        <game>Call of Duty</game>
+        <join_year>2019</join_year>
+        <earnings>110000</earnings>
+    </gamer>
+    <gamer>
+        <name>Pruthviraj Sawant</name>
+        <role>Support</role>
+        <team>Alpha Squad</team>
+        <game>Dota 2</game>
+        <join_year>2017</join_year>
+        <earnings>130000</earnings>
+    </gamer>
+    <gamer>
+        <name>Aryan Patil</name>
+        <role>Strategist</role>
+        <team>Night Raiders</team>
+        <game>League of Legends</game>
+        <join_year>2021</join_year>
+        <earnings>98000</earnings>
+    </gamer>
+</gamers>

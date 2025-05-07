@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <name>Harshvardhan Patil</name>
+        <position>Full Stack Developer</position>
+        <department>IT</department>
+        <hire_year>2021</hire_year>
+        <salary>85000</salary>
+    </employee>
+    <employee>
+        <name>Yash Ainpaure</name>
+        <position>Frontend Developer</position>
+        <department>UI/UX</department>
+        <hire_year>2022</hire_year>
+        <salary>72000</salary>
+    </employee>
+    <employee>
+        <name>Pawan Malgavi</name>
+        <position>Backend Developer</position>
+        <department>IT</department>
+        <hire_year>2021</hire_year>
+        <salary>78000</salary>
+    </employee>
+    <employee>
+        <name>Pruthviraj Sawant</name>
+        <position>System Analyst</position>
+        <department>Operations</department>
+        <hire_year>2020</hire_year>
+        <salary>70000</salary>
+    </employee>
+    <employee>
+        <name>Aryan Patil</name>
+        <position>QA Engineer</position>
+        <department>Testing</department>
+        <hire_year>2022</hire_year>
+        <salary>65000</salary>
+    </employee>
+</employees>

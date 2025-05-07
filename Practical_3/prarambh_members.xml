@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="prarambh_style.css"?>
+<prarambh_club>
+    <member>
+        <name>Harshvardhan Patil</name>
+        <position>Head</position>
+    </member>
+    <member>
+        <name>Yash Ainpaure</name>
+        <position>Deputy Head</position>
+    </member>
+    <member>
+        <name>Pawan Malgavi</name>
+        <position>Technical Team Lead</position>
+    </member>
+    <member>
+        <name>Pruthviraj Sawant</name>
+        <position>Technical Team Associate</position>
+    </member>
+    <member>
+        <name>Aryan Patil</name>
+        <position>Media Team Lead</position>
+    </member>
+    <member>
+        <name>Radheya Patil</name>
+        <position>Media Team Associate</position>
+    </member>
+    <member>
+        <name>Sami BhadGaonkar</name>
+        <position>Marketing Team Lead</position>
+    </member>
+    <member>
+        <name>Vedant Patil</name>
+        <position>Marketing Team Associate</position>
+    </member>
+    <member>
+        <name>Shreyas Kulkarni</name>
+        <position>Documentation Team Lead</position>
+    </member>
+    <member>
+        <name>Sarthak Khot</name>
+        <position>Documentation Team Associate</position>
+    </member>
+</prarambh_club>
